@@ -38,6 +38,7 @@ def encontra_primeiro_duplicado(lista):
     return -1
 
 
+
 for lista in lista_de_listas_de_inteiros:
     resultado = encontra_primeiro_duplicado(lista)
 
