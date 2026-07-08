@@ -11,7 +11,11 @@ def parametros_decoradores(nome):
     return decorador
 
 
-@parametros_decoradores(nome='Primeiro')
+@parametros_decoradores(nome='5')
+@parametros_decoradores(nome='4')
+@parametros_decoradores(nome='3')
+@parametros_decoradores(nome='2')
+@parametros_decoradores(nome='1')
 def soma(x, y):
     return x + y
 
